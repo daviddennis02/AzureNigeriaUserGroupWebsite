@@ -11246,6 +11246,10 @@ a.theme-link:hover {
     min-height: 60px;
     background: none
 }
+.header-shrink {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #141c25;
+}
 
 @media (prefers-reduced-motion: reduce) {
     .header {
@@ -11259,7 +11263,7 @@ a.theme-link:hover {
 }
 
 .header .logo-icon {
-    height: 100px;
+    height: 80px;
     width: auto
 }
 
@@ -11342,17 +11346,15 @@ a.theme-link:hover {
 }
 
 .hero-carousel .carousel-item-1 {
-    background: url("../images/eventphotos/uchejan02.jpg") no-repeat center center;
-    width: auto;
-    height: 100%;
+    background: url("../images/hero-1.jpg") no-repeat center center;
 }
 
 .hero-carousel .carousel-item-2 {
-    background: url("../images/hero-2.jpg") no-repeat center center
+    background: url("../images/hero-2.jpg") no-repeat center center;
 }
 
 .hero-carousel .carousel-item-3 {
-    background: url("../images/hero-3.jpg") no-repeat center center
+    background: url("../images/hero-3.jpg") no-repeat center center;
 }
 
 .hero-text-block {
